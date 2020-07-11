@@ -1,4 +1,0 @@
-* Tasks
-* TODO 
-   [2020-07-10 Fri]
-   [[file:~/Desktop/code/leet_code_progress/leet_code.org::*6. 1221. Split a String in Balanced Strings][6. 1221. Split a String in Balanced Strings]]
