@@ -1,15 +1,38 @@
 * LEET CODE
 
-** 1342. Number of Steps to Reduce a Number to Zero 
-   CLOSED: [2020-07-09 Thu 16:06]
+** 1. Number of Steps to Reduce a Number to Zero                 :EASY:
    :LOGBOOK:
    CLOCK: [2020-07-09 Thu 15:52]--[2020-07-09 Thu 16:06] =>  0:14
    :END:
   - link: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/ 
 
-
-** 1365. How Many Numbers Are Smaller Than the Current Number
+** 2. How Many Numbers Are Smaller Than the Current Number       :EASY:
    :LOGBOOK:
    CLOCK: [2020-07-09 Thu 16:07]--[2020-07-09 Thu 16:20] =>  0:13
    :END:
   - link: https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+    
+** 3. Decompress Run-Length Encoded List                         :EASY:
+   :LOGBOOK:
+   CLOCK: [2020-07-10 Fri 16:16]--[2020-07-10 Fri 16:42] =>  0:26
+   CLOCK: [2020-07-10 Fri 16:14]--[2020-07-10 Fri 16:15] =>  0:01
+   :END:
+   - link: https://leetcode.com/problems/decompress-run-length-encoded-list/
+
+** 4. Subtract the Product and Sum of Digits of an Integer       :EASY:
+   :LOGBOOK:
+   CLOCK: [2020-07-10 Fri 16:45]--[2020-07-10 Fri 17:02] =>  0:17
+   :END:
+   - link: https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
+
+** 5. Create Target Array in the Given Order                     :EASY:
+   :LOGBOOK:
+   CLOCK: [2020-07-10 Fri 17:10]--[2020-07-10 Fri 17:29] =>  0:19
+   :END:
+   - link: https://leetcode.com/problems/create-target-array-in-the-given-order/
+
+** TODO 6. Split a String in Balanced Strings                          :EASY:
+  :LOGBOOK:
+  CLOCK: [2020-07-10 Fri 17:49]--[2020-07-10 Fri 18:07] =>  0:18
+  :END:
+  - link: https://leetcode.com/problems/split-a-string-in-balanced-strings/
