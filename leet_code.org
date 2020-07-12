@@ -31,8 +31,13 @@
    :END:
    - link: https://leetcode.com/problems/create-target-array-in-the-given-order/
 
-** TODO 6. Split a String in Balanced Strings                          :EASY:
+** 6. Split a String in Balanced Strings                               :EASY:
   :LOGBOOK:
-  CLOCK: [2020-07-10 Fri 17:49]--[2020-07-10 Fri 18:07] =>  0:18
+  CLOCK: [2020-07-10 Fri 17:49]--[2020-07-10 Fri 18:00] =>  0:11
   :END:
   - link: https://leetcode.com/problems/split-a-string-in-balanced-strings/
+** 7. Find Numbers with Even Number of Digits                          :EASY:
+   :LOGBOOK:
+   CLOCK: [2020-07-10 Fri 23:44]--[2020-07-10 Fri 23:50] =>  0:06
+   :END:
+   - link: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
