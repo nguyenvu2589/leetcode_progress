@@ -70,50 +70,50 @@
    CLOCK: [2020-07-12 Sun 23:39]--[2020-07-12 Sun 23:47] =>  0:08
    :END:
    - link: https://leetcode.com/problems/number-of-days-between-two-dates/
-** 13. Assign Cookies                                  :EASY:PYTHON:BELOW50%:
+** 13. Assign Cookies                                  :EASY:PYTHON:BELOW50:
    :LOGBOOK:
    CLOCK: [2020-07-13 Mon 22:09]--[2020-07-13 Mon 23:05] =>  0:56
    :END:
    - link: https://leetcode.com/problems/assign-cookies/
-** 14. Kth Largest Element in a Stream                 :EASY:PYTHON:BELOW50%:
+** 14. Kth Largest Element in a Stream                 :EASY:PYTHON:BELOW50:
    :LOGBOOK:
    CLOCK: [2020-07-13 Mon 23:10]--[2020-07-13 Mon 23:39] =>  0:29
    :END:
    - link: https://leetcode.com/problems/kth-largest-element-in-a-stream/
-** 15. Positions of Large Groups                       :EASY:PYTHON:BELOW50%:
+** 15. Positions of Large Groups                       :EASY:PYTHON:BELOW50:
    :LOGBOOK:
    CLOCK: [2020-07-14 Tue 23:15]--[2020-07-14 Tue 23:40] =>  0:25
    :END:
    - link: https://leetcode.com/problems/positions-of-large-groups/
-** 16. Number of 1 bits                                :EASY:PYTHON:BELOW50%:
+** 16. Number of 1 bits                                :EASY:PYTHON:BELOW50:
    :LOGBOOK:
    CLOCK: [2020-07-17 Fri 22:47]--[2020-07-17 Fri 23:00] =>  0:13
    :END:
   - link: https://leetcode.com/problems/number-of-1-bits/
   - list.count()
-** 17. Day of the Year                                 :EASY:PYTHON:BELOW50%:
+** 17. Day of the Year                                 :EASY:PYTHON:BELOW50:
    :LOGBOOK:
    CLOCK: [2020-07-17 Fri 23:00]--[2020-07-17 Fri 23:10] =>  0:10
    :END:
    - link: https://leetcode.com/problems/day-of-the-year/
-** 18. Rectangle Overlap                               :EASY:PYTHON:BELOW50%:
+** 18. Rectangle Overlap                               :EASY:PYTHON:BELOW50:
    :LOGBOOK:
    CLOCK: [2020-07-17 Fri 22:35]--[2020-07-17 Fri 23:00] =>  0:25
    :END:
    - link: https://leetcode.com/problems/rectangle-overlap/
-** 19. Pascal's Triangle II                            :EASY:PYTHON:BELOW50%:
+** 19. Pascal's Triangle II                            :EASY:PYTHON:BELOW50:
    :LOGBOOK:
    CLOCK: [2020-07-20 Mon 22:36]--[2020-07-20 Mon 23:23] =>  0:47
    :END:
    - link: https://leetcode.com/problems/pascals-triangle-ii/
    - calculate current value in pascals triangle:
      cur_value = (pre_value * (row - col +1)) / col
-** 20. Bit and 2-bit Characters                        :EASY:PYTHON:BELOW50%:
+** 20. Bit and 2-bit Characters                        :EASY:PYTHON:BELOW50:
    :LOGBOOK:
    CLOCK: [2020-07-21 Tue 21:46]--[2020-07-21 Tue 22:13] =>  0:27
    :END:
    - link: https://leetcode.com/problems/1-bit-and-2-bit-characters/ 
-** 21. Reverse String II                               :EASY:PYTHON:BELOW50%:
+** 21. Reverse String II                               :EASY:PYTHON:BELOW50:
    :LOGBOOK:
    CLOCK: [2020-07-21 Tue 22:15]--[2020-07-21 Tue 23:13] =>  0:58
    :END:
