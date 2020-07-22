@@ -1,4 +1,16 @@
 * LEET CODE
+# C-c C-c to run stats
+#+begin_src emacs-lisp :colnames '(freq tags)
+(count-tags)
+#+end_src
+
+#+RESULTS:
+| freq | tags    |
+|------+---------|
+|   21 | EASY    |
+|   20 | PYTHON  |
+|    9 | BELOW50 |
+|    1 | SQL     |
 
 ** 1. Number of Steps to Reduce a Number to Zero                :EASY:PYTHON:
    :LOGBOOK:
