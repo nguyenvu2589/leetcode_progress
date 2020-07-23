@@ -130,3 +130,15 @@
    CLOCK: [2020-07-21 Tue 22:15]--[2020-07-21 Tue 23:13] =>  0:58
    :END:
    - link: https://leetcode.com/problems/reverse-string-ii/
+** 22. Longest Word in Dictionary                       :EASY:PYTHON:BELOW50:
+   :LOGBOOK:
+   CLOCK: [2020-07-22 Wed 22:33]--[2020-07-22 Wed 22:47] =>  0:14
+   CLOCK: [2020-07-22 Wed 22:27]--[2020-07-22 Wed 22:33] =>  0:06
+   CLOCK: [2020-07-22 Wed 21:13]--[2020-07-22 Wed 22:00] =>  0:47
+   :END:
+   - link: https://leetcode.com/problems/longest-word-in-dictionary/
+** 23. Find a Corresponding Node of a Binary Tree in a Clone of That Tree :MEDIUM:PYTHON:BINARYTREE:
+   :LOGBOOK:
+   CLOCK: [2020-07-22 Wed 22:59]--[2020-07-22 Wed 23:16] =>  0:17
+   :END:
+   - link: https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/ 
