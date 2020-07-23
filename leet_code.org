@@ -142,3 +142,8 @@
    CLOCK: [2020-07-22 Wed 22:59]--[2020-07-22 Wed 23:16] =>  0:17
    :END:
    - link: https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/ 
+** 24. Sum of Nodes with Even-Valued Grandparent :MEDIUM:PYTHON:BINARYTREE:SAMPLE:
+   :LOGBOOK:
+   CLOCK: [2020-07-22 Wed 23:25]--[2020-07-22 Wed 23:52] =>  0:27
+   :END:
+   - link: https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/
