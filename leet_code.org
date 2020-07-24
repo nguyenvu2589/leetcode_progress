@@ -147,3 +147,46 @@
    CLOCK: [2020-07-22 Wed 23:25]--[2020-07-22 Wed 23:52] =>  0:27
    :END:
    - link: https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/
+** 25. Deepest Leaves Sum                   :MEDIUM:PYTHON:BINARYTREE:
+   :LOGBOOK:
+   CLOCK: [2020-07-23 Thu 18:39]--[2020-07-23 Thu 19:30] =>  0:51
+   :END:
+   - link: https://leetcode.com/problems/deepest-leaves-sum/ 
+
+** 26. Count Number of Teams                                  :MEDIUM:PYTHON:
+   :LOGBOOK:
+   CLOCK: [2020-07-23 Thu 21:16]--[2020-07-23 Thu 21:59] =>  0:43
+   :END:
+   - link: https://leetcode.com/problems/count-number-of-teams/ 
+
+
+* NOTE
+** BFS
+
+#+BEGIN_SRC python :results output : print python
+graph = {'A': ['B', 'C', 'E'],
+         'B': ['A','D', 'E'],
+         'C': ['A', 'F', 'G'],
+         'D': ['B'],
+         'E': ['A', 'B','D'],
+         'F': ['C'],
+         'G': ['C']}
+
+def bfs( s, graph): 
+	q = [s]
+	visited = []
+
+	while q:
+		val = q.pop(0)
+		if val not in visited:
+			visited.append(val)
+			q.extend(x for x in graph[val])
+	return visited
+
+result = bfs('A', graph)
+print(result)
+#+END_SRC
+
+#+RESULTS:
+: ['A', 'B', 'C', 'E', 'D', 'F', 'G']
+
