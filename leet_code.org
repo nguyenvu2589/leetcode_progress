@@ -5,12 +5,15 @@
 #+end_src
 
 #+RESULTS:
-| freq | tags    |
-|------+---------|
-|   21 | EASY    |
-|   20 | PYTHON  |
-|    9 | BELOW50 |
-|    1 | SQL     |
+| freq | tags       |
+|------+------------|
+|   25 | PYTHON     |
+|   22 | EASY       |
+|   10 | BELOW50    |
+|    4 | MEDIUM     |
+|    3 | BINARYTREE |
+|    1 | SQL        |
+|    1 | SAMPLE     |
 
 ** 1. Number of Steps to Reduce a Number to Zero                :EASY:PYTHON:
    :LOGBOOK:
@@ -161,17 +164,22 @@
 
 
 * NOTE
+#+NAME: graph
+#+BEGIN_SRC python
+graph = {'A': ['B', 'C', 'E'],
+          'B': ['A','D', 'E'],
+          'C': ['A', 'F', 'G'],
+          'D': ['B'],
+          'E': ['A', 'B','D'],
+          'F': ['C'],
+          'G': ['C']
+  }
+#+END_SRC
+
 ** BFS
 
-#+BEGIN_SRC python :results output : print python
-graph = {'A': ['B', 'C', 'E'],
-         'B': ['A','D', 'E'],
-         'C': ['A', 'F', 'G'],
-         'D': ['B'],
-         'E': ['A', 'B','D'],
-         'F': ['C'],
-         'G': ['C']}
-
+#+BEGIN_SRC python :results output :print python :noweb yes
+<<graph>>
 def bfs( s, graph): 
 	q = [s]
 	visited = []
@@ -190,3 +198,37 @@ print(result)
 #+RESULTS:
 : ['A', 'B', 'C', 'E', 'D', 'F', 'G']
 
+** BFS_shortest
+
+#+begin_src python :results output :noweb yes
+<<graph>>
+def bfs_shortest_path(graph, start, goal):
+	if start == goal:
+		return [start]
+
+	q = [[ start ]]
+	visited = []
+
+	while q:
+		path = q.pop(0)
+		node = path[-1]
+		if node not in visited:
+			neighbours = graph[node]
+			for neighbour in neighbours:
+				new_path = list(path)
+				new_path.append(neighbour)
+				q.append(new_path)
+				if neighbour == goal:
+					return new_path
+			visited.append(node)
+	return []
+
+result = bfs_shortest_path(graph, 'G', 'D')
+print(result)
+#+end_src
+
+#+RESULTS:
+: ['G', 'C', 'A', 'B', 'D']
+
+
+ 
