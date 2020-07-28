@@ -162,6 +162,11 @@
    :END:
    - link: https://leetcode.com/problems/count-number-of-teams/ 
 
+** 27. Combination Sum                             :MEDIUM:PYTHON:BELOW50:
+   :LOGBOOK:
+   CLOCK: [2020-07-27 Mon 22:36]--[2020-07-27 Mon 23:19] =>  0:43
+   :END:
+   - link: https://leetcode.com/problems/combination-sum/
 
 * NOTE
 #+NAME: graph
@@ -231,4 +236,23 @@ print(result)
 : ['G', 'C', 'A', 'B', 'D']
 
 
- 
+** Backtrack
+
+#+begin_src python :results output :noweb yes
+candidates = [2,3,6,7]
+target = 7
+res = []
+def dfs(idx, cur, path):
+    if cur > target:
+        return
+    if cur == target:
+        res.append(path)
+        return
+    for i in range(idx, len(candidates)):
+        dfs(i, cur+ candidates[i], path + [candidates[i]])
+dfs(0,0,[])
+print(res)
+#+end_src
+
+#+RESULTS:
+: [[2, 2, 3], [7]]
