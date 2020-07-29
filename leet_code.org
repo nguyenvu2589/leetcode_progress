@@ -7,10 +7,10 @@
 #+RESULTS:
 | freq | tags       |
 |------+------------|
-|   25 | PYTHON     |
+|   27 | PYTHON     |
 |   22 | EASY       |
-|   10 | BELOW50    |
-|    4 | MEDIUM     |
+|   12 | BELOW50    |
+|    6 | MEDIUM     |
 |    3 | BINARYTREE |
 |    1 | SQL        |
 |    1 | SAMPLE     |
@@ -174,6 +174,24 @@
    :END:
    - link: https://leetcode.com/problems/combination-sum-ii/ 
 
+** 29. Subsets                                                :MEDIUM:PYTHON:
+   :LOGBOOK:
+   CLOCK: [2020-07-28 Tue 20:19]--[2020-07-28 Tue 20:51] =>  0:32
+   :END:
+   - link: https://leetcode.com/problems/subsets/ 
+** 30. Subsets II                                             :MEDIUM:PYTHON:
+   :LOGBOOK:
+   CLOCK: [2020-07-28 Tue 21:34]--[2020-07-28 Tue 21:41] =>  0:07
+   CLOCK: [2020-07-28 Tue 21:28]--[2020-07-28 Tue 21:33] =>  0:05
+   :END:
+   -link: https://leetcode.com/problems/subsets-ii/ 
+
+** 31. Permutations                                           :MEDIUM:PYTHON:
+   :LOGBOOK:
+   CLOCK: [2020-07-28 Tue 22:33]--[2020-07-28 Tue 23:14] =>  0:41
+   CLOCK: [2020-07-28 Tue 21:49]--[2020-07-28 Tue 22:30] =>  0:41
+   :END:
+   - link: https://leetcode.com/problems/permutations/
 
 
 * NOTE
