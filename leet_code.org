@@ -242,7 +242,22 @@
    :END:
    - link: https://leetcode.com/problems/employee-importance/
 
+** 38. Same Tree                                            :EASY:PYTHON:DFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-01 Sat 23:16]--[2020-08-01 Sat 23:44] =>  0:28
+   :END:
+   - link: https://leetcode.com/problems/same-tree/
 
+** 39. Binary Tree Paths                                    :EASY:PYTHON:DFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-02 Sun 16:10]--[2020-08-02 Sun 16:26] =>  0:16
+   :END:
+   - link: https://leetcode.com/problems/binary-tree-paths/
+** 40. Symmetric Tree                               :EASY:PYTHON:DFS:BELOW50:
+   :LOGBOOK:
+   CLOCK: [2020-08-02 Sun 16:35]--[2020-08-02 Sun 17:02] =>  0:27
+   :END:
+   - link: https://leetcode.com/tag/depth-first-search/
 * NOTE
 #+NAME: graph
 #+BEGIN_SRC python
