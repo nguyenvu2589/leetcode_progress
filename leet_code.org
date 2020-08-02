@@ -230,6 +230,19 @@
 
 
 
+** 36. Convert Sorted Array to Binary Search Tree           :EASY:PYTHON:DFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-01 Sat 21:49]--[2020-08-01 Sat 22:30] =>  0:41
+   :END:
+   - link: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+
+** 37. Employee Importance                                  :EASY:PYTHON:DFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-01 Sat 22:32]--[2020-08-01 Sat 23:11] =>  0:39
+   :END:
+   - link: https://leetcode.com/problems/employee-importance/
+
+
 * NOTE
 #+NAME: graph
 #+BEGIN_SRC python
