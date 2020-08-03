@@ -258,6 +258,11 @@
    CLOCK: [2020-08-02 Sun 16:35]--[2020-08-02 Sun 17:02] =>  0:27
    :END:
    - link: https://leetcode.com/tag/depth-first-search/
+** 41. Balanced Binary Tree                         :EASY:PYTHON:DFS:BELOW50:
+   :LOGBOOK:
+   CLOCK: [2020-08-02 Sun 23:17]--[2020-08-02 Sun 23:46] =>  0:29
+   :END:
+   - link: https://leetcode.com/problems/balanced-binary-tree/
 * NOTE
 #+NAME: graph
 #+BEGIN_SRC python
