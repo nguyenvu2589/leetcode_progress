@@ -7,11 +7,12 @@
 #+RESULTS:
 | freq | tags       |
 |------+------------|
-|   34 | PYTHON     |
-|   26 | EASY       |
-|   12 | BELOW50    |
-|    9 | MEDIUM     |
+|   42 | PYTHON     |
+|   32 | EASY       |
+|   15 | BELOW50    |
+|   11 | MEDIUM     |
 |    7 | BINARYTREE |
+|    7 | DFS        |
 |    1 | SQL        |
 |    1 | SAMPLE     |
 
@@ -193,8 +194,9 @@
    :END:
    - link: https://leetcode.com/problems/permutations/
 
-** TODO 32. Increasing Order Search Tree             :EASY:PYTHON:BINARYTREE:
+** 32. Increasing Order Search Tree                  :EASY:PYTHON:BINARYTREE:
    :LOGBOOK:
+   CLOCK: [2020-08-03 Mon 21:43]--[2020-08-03 Mon 22:45] =>  1:02
    CLOCK: [2020-07-30 Thu 21:28]--[2020-07-30 Thu 21:42] =>  0:14
    :END:
    - link: https://leetcode.com/problems/increasing-order-search-tree/
@@ -227,7 +229,6 @@
   - link: https://leetcode.com/problems/compare-version-numbers/
 
  
-
 
 
 ** 36. Convert Sorted Array to Binary Search Tree           :EASY:PYTHON:DFS:
@@ -264,6 +265,11 @@
    CLOCK: [2020-08-02 Sun 23:17]--[2020-08-02 Sun 23:46] =>  0:29
    :END:
    - link: https://leetcode.com/problems/balanced-binary-tree/
+** 42. Count Good Nodes in Binary Tree                    :MEDIUM:PYTHON:DFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-03 Mon 21:12]--[2020-08-03 Mon 21:33] =>  0:21
+   :END:
+   - link: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 * NOTE
 #+NAME: graph
 #+BEGIN_SRC python
