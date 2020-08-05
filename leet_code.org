@@ -270,6 +270,13 @@
    CLOCK: [2020-08-03 Mon 21:12]--[2020-08-03 Mon 21:33] =>  0:21
    :END:
    - link: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+** 43. Delete Leaves With a Given Value                   :MEDIUM:PYTHON:DFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-04 Tue 22:59]
+   :END:
+   - link: https://leetcode.com/problems/delete-leaves-with-a-given-value/
+   
+
 * NOTE
 #+NAME: graph
 #+BEGIN_SRC python
@@ -358,3 +365,24 @@ print(res)
 
 #+RESULTS:
 : [[2, 2, 3], [7]]
+** not left and not right = left is right
+   - only way for this to be true is both leaves equal to None
+#+begin_src python :results output :print python
+class TreeNode:
+    def __init__(self, val, left, right):
+        self.left = left
+        self.right = right
+        self.val = val
+root = TreeNode(3, None, None)
+
+if not root.left and not root.right:
+    print("both left and right leave are None")
+
+if root.left is root.right:
+    print("both left and right leave are None")
+ 
+#+end_src
+
+#+RESULTS:
+: both left and right leave are None
+: both left and right leave are None
