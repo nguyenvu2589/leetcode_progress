@@ -7,12 +7,12 @@
 #+RESULTS:
 | freq | tags       |
 |------+------------|
-|   42 | PYTHON     |
+|   43 | PYTHON     |
 |   32 | EASY       |
 |   15 | BELOW50    |
-|   11 | MEDIUM     |
+|   12 | MEDIUM     |
+|    8 | DFS        |
 |    7 | BINARYTREE |
-|    7 | DFS        |
 |    1 | SQL        |
 |    1 | SAMPLE     |
 
@@ -230,7 +230,6 @@
 
  
 
-
 ** 36. Convert Sorted Array to Binary Search Tree           :EASY:PYTHON:DFS:
    :LOGBOOK:
    CLOCK: [2020-08-01 Sat 21:49]--[2020-08-01 Sat 22:30] =>  0:41
@@ -272,11 +271,15 @@
    - link: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 ** 43. Delete Leaves With a Given Value                   :MEDIUM:PYTHON:DFS:
    :LOGBOOK:
-   CLOCK: [2020-08-04 Tue 22:59]
+   CLOCK: [2020-08-04 Tue 22:59]--[2020-08-04 Tue 23:34] =>  0:35
    :END:
    - link: https://leetcode.com/problems/delete-leaves-with-a-given-value/
    
-
+** TODO 44. Distribute Coins in Binary Tree               :MEDIUM:PYTHON:DFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-06 Thu 22:13]--[2020-08-06 Thu 22:56] =>  0:43
+   :END:
+   - link: https://leetcode.com/problems/distribute-coins-in-binary-tree/ 
 * NOTE
 #+NAME: graph
 #+BEGIN_SRC python
