@@ -228,8 +228,6 @@
    :END:
   - link: https://leetcode.com/problems/compare-version-numbers/
 
- 
-
 ** 36. Convert Sorted Array to Binary Search Tree           :EASY:PYTHON:DFS:
    :LOGBOOK:
    CLOCK: [2020-08-01 Sat 21:49]--[2020-08-01 Sat 22:30] =>  0:41
@@ -275,11 +273,26 @@
    :END:
    - link: https://leetcode.com/problems/delete-leaves-with-a-given-value/
    
-** TODO 44. Distribute Coins in Binary Tree               :MEDIUM:PYTHON:DFS:
+** 44. Distribute Coins in Binary Tree                    :MEDIUM:PYTHON:DFS:
    :LOGBOOK:
+   CLOCK: [2020-08-07 Fri 21:19]--[2020-08-07 Fri 21:24] =>  0:05
    CLOCK: [2020-08-06 Thu 22:13]--[2020-08-06 Thu 22:56] =>  0:43
    :END:
-   - link: https://leetcode.com/problems/distribute-coins-in-binary-tree/ 
+   - link: https://leetcode.com/problems/distribute-coins-in-binary-tree/
+
+** 45. Delete Nodes And Return Forest                     :MEDIUM:PYTHON:DFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-10 Mon 21:54]--[2020-08-10 Mon 22:12] =>  0:18
+   CLOCK: [2020-08-07 Fri 22:52]--[2020-08-07 Fri 23:32] =>  0:40
+   :END:
+   - link: https://leetcode.com/problems/delete-nodes-and-return-forest/
+** 46. Find Bottom Left Tree Value                        :MEDIUM:PYTHON:DFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-10 Mon 22:58]--[2020-08-10 Mon 23:17] =>  0:19
+   :END:
+   - link: https://leetcode.com/problems/find-bottom-left-tree-value/
+
+
 * NOTE
 #+NAME: graph
 #+BEGIN_SRC python
