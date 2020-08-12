@@ -292,6 +292,11 @@
    :END:
    - link: https://leetcode.com/problems/find-bottom-left-tree-value/
 
+** 47. Find Largest Value in Each Tree Row                :MEDIUM:PYTHON:DFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-11 Tue 22:23]--[2020-08-11 Tue 22:39] =>  0:16
+   :END:
+   - link: https://leetcode.com/problems/find-largest-value-in-each-tree-row/
 
 * NOTE
 #+NAME: graph
@@ -402,3 +407,10 @@ if root.left is root.right:
 #+RESULTS:
 : both left and right leave are None
 : both left and right leave are None
+** max val
+#+begin_src python :results output :print python
+if a > b:
+    b = a
+
+b = max(a,b)  
+#+end_src
