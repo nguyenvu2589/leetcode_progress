@@ -7,11 +7,11 @@
 #+RESULTS:
 | freq | tags       |
 |------+------------|
-|   43 | PYTHON     |
+|   50 | PYTHON     |
 |   32 | EASY       |
+|   19 | MEDIUM     |
 |   15 | BELOW50    |
-|   12 | MEDIUM     |
-|    8 | DFS        |
+|   15 | DFS        |
 |    7 | BINARYTREE |
 |    1 | SQL        |
 |    1 | SAMPLE     |
@@ -298,6 +298,23 @@
    :END:
    - link: https://leetcode.com/problems/find-largest-value-in-each-tree-row/
 
+** TODO 48. Number of Closed Islands                      :MEDIUM:PYTHON:DFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-11 Tue 22:58]--[2020-08-11 Tue 23:28] =>  0:30
+   :END:
+   - link: https://leetcode.com/problems/number-of-closed-islands/
+
+** 49. Binary Tree Right Side View                        :MEDIUM:PYTHON:DFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-12 Wed 21:38]--[2020-08-12 Wed 21:51] =>  0:13
+   :END:
+   - link: https://leetcode.com/problems/binary-tree-right-side-view/
+
+** 50. Time Needed to Inform All Employees                :MEDIUM:PYTHON:DFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-12 Wed 21:54]--[2020-08-12 Wed 22:59] =>  1:05
+   :END:
+   - link: https://leetcode.com/problems/time-needed-to-inform-all-employees/
 * NOTE
 #+NAME: graph
 #+BEGIN_SRC python
@@ -412,5 +429,5 @@ if root.left is root.right:
 if a > b:
     b = a
 
-b = max(a,b)  
+b = max(a,b)
 #+end_src
