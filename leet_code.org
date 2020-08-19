@@ -315,6 +315,12 @@
    CLOCK: [2020-08-12 Wed 21:54]--[2020-08-12 Wed 22:59] =>  1:05
    :END:
    - link: https://leetcode.com/problems/time-needed-to-inform-all-employees/
+** 51. Keys and Rooms                                     :MEDIUM:PYTHON:DFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-18 Tue 21:39]--[2020-08-18 Tue 22:24] =>  0:45
+   :END:
+   - link: https://leetcode.com/problems/keys-and-rooms/
+
 * NOTE
 #+NAME: graph
 #+BEGIN_SRC python
