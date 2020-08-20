@@ -315,12 +315,17 @@
    CLOCK: [2020-08-12 Wed 21:54]--[2020-08-12 Wed 22:59] =>  1:05
    :END:
    - link: https://leetcode.com/problems/time-needed-to-inform-all-employees/
-** 51. Keys and Rooms                                     :MEDIUM:PYTHON:DFS:
+** 51. Keys and Rooms                                     :MEDIUM:PYTHON:BFS:
    :LOGBOOK:
    CLOCK: [2020-08-18 Tue 21:39]--[2020-08-18 Tue 22:24] =>  0:45
    :END:
    - link: https://leetcode.com/problems/keys-and-rooms/
 
+** 52. Target Sum                                         :MEDIUM:PYTHON:BFS:
+   :LOGBOOK:
+   CLOCK: [2020-08-19 Wed 20:43]--[2020-08-19 Wed 21:25] =>  0:42
+   :END:
+   - link: https://leetcode.com/problems/target-sum/ 
 * NOTE
 #+NAME: graph
 #+BEGIN_SRC python
@@ -437,3 +442,29 @@ if a > b:
 
 b = max(a,b)
 #+end_src
+** Memoization
+
+#+begin_src python :results output :print python 
+  # How many ways to get sum = S 
+nums = [1,1,1,1,1]
+S = 3
+memoi = {}
+
+def dfs(i, val):
+    if i == len(nums):
+        if val == 0:
+            return 1
+        return 0
+    elif (i, val) in memoi:
+        return memoi[i, val]
+    
+    memoi[i, val] = dfs(i+1, val+nums[i]) + dfs(i+1, val-nums[i])
+    return memoi[i, val]
+
+result = dfs(0, S)
+print(result)
+
+#+end_src
+
+#+RESULTS:
+: 5
