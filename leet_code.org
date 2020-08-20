@@ -321,11 +321,29 @@
    :END:
    - link: https://leetcode.com/problems/keys-and-rooms/
 
-** 52. Target Sum                                         :MEDIUM:PYTHON:BFS:
+** 52. Target Sum                                 :MEDIUM:PYTHON:BFS:BELOW50:
    :LOGBOOK:
    CLOCK: [2020-08-19 Wed 20:43]--[2020-08-19 Wed 21:25] =>  0:42
    :END:
    - link: https://leetcode.com/problems/target-sum/ 
+** 53. Pseudo-Palindromic Paths in a Binary Tree  :MEDIUM:PYTHON:BFS:BELOW50:
+   :LOGBOOK:
+   CLOCK: [2020-08-20 Thu 11:00]--[2020-08-20 Thu 11:28] =>  0:28
+   CLOCK: [2020-08-19 Wed 23:22]--[2020-08-19 Wed 23:27] =>  0:05
+   :END:
+  - link: https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/ 
+** 54. Path Sum                                     :EASY:DFS:BELOW50:PYTHON:
+   :LOGBOOK:
+   CLOCK: [2020-08-20 Thu 15:44]--[2020-08-20 Thu 16:01] =>  0:17
+   :END:
+   - link: https://leetcode.com/problems/path-sum/
+
+** 55. Path Sum II                                :MEDIUM:PYTHON:DFS:BELOW50:
+   :LOGBOOK:
+   CLOCK: [2020-08-20 Thu 16:11]--[2020-08-20 Thu 16:49] =>  0:38
+   :END:
+   - link: https://leetcode.com/problems/path-sum-ii/
+
 * NOTE
 #+NAME: graph
 #+BEGIN_SRC python
