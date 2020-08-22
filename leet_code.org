@@ -7,12 +7,13 @@
 #+RESULTS:
 | freq | tags       |
 |------+------------|
-|   50 | PYTHON     |
-|   32 | EASY       |
-|   19 | MEDIUM     |
-|   15 | BELOW50    |
-|   15 | DFS        |
+|   55 | PYTHON     |
+|   33 | EASY       |
+|   23 | MEDIUM     |
+|   19 | BELOW50    |
+|   17 | DFS        |
 |    7 | BINARYTREE |
+|    3 | BFS        |
 |    1 | SQL        |
 |    1 | SAMPLE     |
 
@@ -344,6 +345,17 @@
    :END:
    - link: https://leetcode.com/problems/path-sum-ii/
 
+** 56. Merge Two Binary Trees                               :EASY:DFS:PYTHON:
+   :LOGBOOK:
+   CLOCK: [2020-08-20 Thu 22:25]--[2020-08-20 Thu 22:45] =>  0:20
+   :END:
+   - link: https://leetcode.com/problems/merge-two-binary-trees/
+
+** 57. Range Sum of Sorted Subarray Sums                      :MEDIUM:PYTHON:
+   :LOGBOOK:
+   CLOCK: [2020-08-21 Fri 21:37]--[2020-08-21 Fri 22:26] =>  0:49
+   :END:
+   - link: https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/
 * NOTE
 #+NAME: graph
 #+BEGIN_SRC python
