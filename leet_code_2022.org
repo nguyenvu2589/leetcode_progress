@@ -1,0 +1,235 @@
+* LEET CODE
+# C-c C-c to run stats
+#+begin_src emacs-lisp :colnames '(freq tags)
+(count-tags)
+#+end_src
+
+
+** 1. Palindrome Number                                                :EASY:
+   :LOGBOOK:
+   CLOCK: [2022-03-09 Wed 22:03]--[2022-03-09 Wed 22:13] =>  0:10
+   :END:
+
+   - link: https://leetcode.com/problems/palindrome-number/
+     
+** 2. Roman to Integer                                                 :EASY:
+   :LOGBOOK:
+   CLOCK: [2022-03-10 Thu 22:34]--[2022-03-10 Thu 22:58] =>  0:24
+   :END:
+
+   - link: https://leetcode.com/problems/roman-to-integer/
+
+** 3. Longest Common Prefix                                            :EASY:
+   :LOGBOOK:
+   CLOCK: [2022-03-10 Thu 23:13]--[2022-03-10 Thu 23:18] =>  0:05
+   :END:
+
+   - link: https://leetcode.com/problems/longest-common-prefix/
+
+** 4. Valid Parentheses                                                :EASY:
+   :LOGBOOK:
+   CLOCK: [2022-03-14 Mon 21:41]--[2022-03-14 Mon 21:54] =>  0:13
+   :END:
+   
+   - link: https://leetcode.com/problems/valid-parentheses/
+
+** 5. Binary Search                                          :EASY:BI_SEARCH:
+   :LOGBOOK:
+   CLOCK: [2022-04-06 Wed 21:19]--[2022-04-06 Wed 21:32] =>  0:13
+   :END:
+
+   - link: https://leetcode.com/problems/binary-search/
+
+** 6. Guess Number Higher or Lower                           :EASY:BI_SEARCH:
+   :LOGBOOK:
+   CLOCK: [2022-04-06 Wed 21:43]--[2022-04-06 Wed 21:48] =>  0:05
+   :END:
+
+   -link: https://leetcode.com/problems/guess-number-higher-or-lower/
+
+** 7. Search Insert Position                                 :EASY:BI_SEARCH:
+   :LOGBOOK:
+   CLOCK: [2022-04-06 Wed 21:56]--[2022-04-06 Wed 22:01] =>  0:05
+   :END:
+
+   - link: https://leetcode.com/problems/search-insert-position/
+   
+** 8. Peak Index in a Mountain Array                         :EASY:BI_SEARCH:
+   :LOGBOOK:
+   CLOCK: [2022-04-06 Wed 22:05]--[2022-04-06 Wed 22:11] =>  0:06
+   :END:
+   - link: https://leetcode.com/problems/peak-index-in-a-mountain-array/
+
+** 9. Binary Search                                      :14_DAYS:ALGO1:EASY:
+   :LOGBOOK:
+   CLOCK: [2022-05-05 Thu 23:07]--[2022-05-05 Thu 23:21] =>  0:14
+   :END:
+   
+   - link: https://leetcode.com/problems/binary-search/
+
+** 10. First Bad Version                                 :14_DAYS:ALGO1:EASY:
+   :LOGBOOK:
+   CLOCK: [2022-05-05 Thu 23:23]--[2022-05-05 Thu 23:37] =>  0:14
+   :END:
+   
+   - link: https://leetcode.com/problems/first-bad-version/
+
+** 11. Search Insert Position                            :14_DAYS:ALGO1:EASY:
+   :LOGBOOK:
+   CLOCK: [2022-05-05 Thu 23:38]--[2022-05-05 Thu 23:44] =>  0:06
+   :END:
+   
+   - link: https://leetcode.com/problems/search-insert-position/
+   
+** 12. Squares of a Sorted Array                         :14_DAYS:ALGO1:EASY:
+   :LOGBOOK:
+   CLOCK: [2022-05-09 Mon 21:51]--[2022-05-09 Mon 22:02] =>  0:11
+   :END:
+
+   - link: https://leetcode.com/problems/squares-of-a-sorted-array/ 
+
+** 13. Rotate Array                                       :14_DAYS:ALGO1:MED:
+   :LOGBOOK:
+   CLOCK: [2022-05-09 Mon 22:08]--[2022-05-09 Mon 22:29] =>  0:21
+   :END:
+
+   - link: https://leetcode.com/problems/rotate-array/
+
+** 14. Move Zeroes                                      :14_DAYS:ALGO1:EASY:
+   :LOGBOOK:
+   CLOCK: [2022-05-09 Mon 22:54]--[2022-05-09 Mon 23:10] =>  0:16
+   :END:
+
+   - link: https://leetcode.com/problems/move-zeroes/
+   
+** 15. Two Sum II - Input Array Is Sorted                 :14_DAYS:ALGO1:MED:
+   :LOGBOOK:
+   CLOCK: [2022-05-09 Mon 23:22]--[2022-05-09 Mon 23:32] =>  0:10
+   :END:
+
+   - link: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+
+** 16. Reverse String                                    :14_DAYS:ALGO1:EASY:
+   :LOGBOOK:
+   CLOCK: [2022-05-10 Tue 22:47]--[2022-05-10 Tue 22:51] =>  0:04
+   :END:
+   
+   - link: https://leetcode.com/problems/reverse-string/
+
+** 17. Reverse Words in a String III                     :14_DAYS:ALGO1:EASY:
+   :LOGBOOK:
+   CLOCK: [2022-05-10 Tue 22:52]--[2022-05-10 Tue 23:04] =>  0:12
+   :END:
+
+   - link: https://leetcode.com/problems/reverse-words-in-a-string-iii/
+
+** 18. Middle of the Linked List                         :14_DAYS:ALGO1:EASY:
+   :LOGBOOK:
+   CLOCK: [2022-05-10 Tue 23:10]--[2022-05-10 Tue 23:21] =>  0:11
+   :END:
+
+   - link: https://leetcode.com/problems/middle-of-the-linked-list/
+
+** 19. Remove Nth Node From End of List                   :14_DAYS:ALGO1:MED:
+   :LOGBOOK:
+   CLOCK: [2022-05-10 Tue 23:51]--[2022-05-11 Wed 00:03] =>  0:12
+   CLOCK: [2022-05-10 Tue 23:24]--[2022-05-10 Tue 23:31] =>  0:07
+   :END:
+
+   - link: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
+** 20. Longest Substring Without Repeating Characters     :14_DAYS:ALGO1:MED:
+   :LOGBOOK:
+   CLOCK: [2022-05-11 Wed 00:16]--[2022-05-11 Wed 01:13] =>  0:57
+   :END:
+
+   - link : https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+** 21. Permutation in String                              :14_DAYS:ALGO1:MED:
+   :LOGBOOK:
+   CLOCK: [2022-05-11 Wed 23:48]--[2022-05-12 Thu 00:10] =>  0:22
+   CLOCK: [2022-05-11 Wed 22:57]--[2022-05-11 Wed 23:35] =>  0:38
+   :END:
+
+   - link: https://leetcode.com/problems/permutation-in-string/
+
+# TODO
+** 22. Flood Fill                                         :14_DAYS:ALGO1:EASY:
+   :LOGBOOK:
+   CLOCK: [2022-05-12 Thu 00:24]--[2022-05-12 Thu 00:37] =>  0:13
+   :END:
+
+   - link: https://leetcode.com/problems/flood-fill/
+
+** 23. Merge Two Binary Trees                             :14_DAYS:ALGO1:EASY:
+   :LOGBOOK:
+   CLOCK: [2022-05-12 Thu 23:07]--[2022-05-12 Thu 23:17] =>  0:10
+   :END:
+
+   - link: https://leetcode.com/problems/merge-two-binary-trees/
+
+** 24. Populating Next Right Pointers in Each Node       :14_DAYS:ALGO1:EASY:
+   :LOGBOOK:
+   CLOCK: [2022-05-12 Thu 23:18]--[2022-05-12 Thu 23:25] =>  0:07
+   :END:
+
+   - link: https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+#+begin_src python :results output :print python 
+# Binary search Recursive
+nums = [-1,0,3,5,9,12]
+target = 9
+
+def binary_search(start, end):
+    if start > end:
+        return -1
+    mid = (end + start)//2
+
+    if nums[mid] == target:
+        return mid
+    elif nums[mid] > target:
+        return binary_search(start, mid)
+    else:
+        return binary_search(mid+1, end)
+
+print(binary_search(0, len(nums)))
+#+end_src
+
+#+RESULTS:
+: 4
+
+#+begin_src python :results output :print python 
+# Binary search while loop
+nums = [-1,0,3,5,9,12]
+target = 9
+
+def binary_search(nums, target):
+    l, r = 0, len(nums)-1
+    while l <= r:
+        mid = (l + r) //2
+        if nums[mid] == target:
+            return mid
+        elif nums[mid] > target:
+            r = mid-1
+        else:
+            l = mid+1
+    return -1
+
+print(binary_search(nums, target))
+#+end_src
+
+#+RESULTS:
+: 4
